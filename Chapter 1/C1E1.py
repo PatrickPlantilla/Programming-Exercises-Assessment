@@ -1,0 +1,12 @@
+print("Hello, user!")
+print("What is your name?")
+name = input()
+print("What is your age?")
+age = input()
+age = int(age)
+print("It is good to meet you,", name.title())
+name_length = len(name)
+future_age = age + 1
+print("The length of your name is:")
+print(name_length)
+print("You will be", future_age, "next year.")
